@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "E:\\avnish\\CoreApiSample\\CoreApiSample\\CoreApiSample.csproj": {}
+    "C:\\Users\\avnish.GENINF\\source\\repos\\CoreApiSample\\CoreApiSample\\CoreApiSample.csproj": {}
   },
   "projects": {
-    "E:\\avnish\\CoreApiSample\\CoreApiSample\\CoreApiSample.csproj": {
+    "C:\\Users\\avnish.GENINF\\source\\repos\\CoreApiSample\\CoreApiSample\\CoreApiSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\avnish\\CoreApiSample\\CoreApiSample\\CoreApiSample.csproj",
+        "projectUniqueName": "C:\\Users\\avnish.GENINF\\source\\repos\\CoreApiSample\\CoreApiSample\\CoreApiSample.csproj",
         "projectName": "CoreApiSample",
-        "projectPath": "E:\\avnish\\CoreApiSample\\CoreApiSample\\CoreApiSample.csproj",
+        "projectPath": "C:\\Users\\avnish.GENINF\\source\\repos\\CoreApiSample\\CoreApiSample\\CoreApiSample.csproj",
         "packagesPath": "C:\\Users\\avnish.GENINF\\.nuget\\packages\\",
-        "outputPath": "E:\\avnish\\CoreApiSample\\CoreApiSample\\obj\\",
+        "outputPath": "C:\\Users\\avnish.GENINF\\source\\repos\\CoreApiSample\\CoreApiSample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\avnish.GENINF\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -59,6 +61,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.2.1, )"
             }
           },
           "imports": [
@@ -71,6 +77,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -79,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
